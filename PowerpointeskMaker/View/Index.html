@@ -1,0 +1,26 @@
+<DOCTYPE html>
+    <meta charset="utf-8">
+
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+    <!-- Create a div where the graph will take place -->
+    <div id="screen" onclick='clicked()'></div> 
+
+    <script type="text/javascript" src="Code.js"></script>
+    
+    <text id="addPolyTxt" style="font-size:100%;">Go To Window</text>
+    <br>
+    <textarea id="WindowTextBox" style="width: 100;"></textarea>
+    <button id="GOTOWindow" onclick='goToWindow()'>Go</button>
+    
+    <!-- the download links-->
+    <a download="Pictures.csv" id="downloadlinkPics" style="display: none">Download Pics</a>
+    <a download="Polygons.csv" id="downloadlinkPolygon" style="display: none">Download Polygon</a>
+
+
+
+    <!--inital run and display the graph-->
+    <script>
+        loadData();
+    </script>

@@ -8,5 +8,4 @@ In order to save download the csvs and upload to here
 
 Actual page [Link](https://efschwarzrock.github.io/PP-D3-Data-Store/PowerpointeskMaker/View/Index.html)
 
-Images only work if you are on my computer bc thats where they are linked to
 
